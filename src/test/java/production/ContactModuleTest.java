@@ -4,11 +4,21 @@ import org.testng.annotations.Test;
 
 public class ContactModuleTest {
 @Test
-public void createContactTest() {
+public void createContactTest() 
+{
 	System.out.println("createContactTest executed");
 }
 @Test
-public void createOrganizationTest() {
+public void createOrganizationTest()
+{
 	System.out.println("createOrganizationTest executed");
 }
+@Test
+
+	public void createAndDelete()
+	{
+		System.out.println("create and deleted....... ");
+	}
+
+
 }
